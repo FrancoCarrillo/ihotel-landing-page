@@ -1,0 +1,56 @@
+{
+    "app-title": "iHotel",
+    "app-login": "Login",
+    "app-register": "Register",
+    "app-features": {
+        "title": "Powerful tools that help you work, organize and be connect",
+        "connect": {
+            "title": "Connect from anywhere",
+            "description": "You only need a place with an internet connection to stay organized and simplify the management of your hotel."
+        },
+        "fast": {
+            "title": "Fast service",
+            "description": "Forget about buying super expensive computers, you just need a stable internet connection and be productive in your day to day."
+        },
+        "protect": {
+            "title": "Protect what’s important",
+            "description": "Stay secured and productive with security features built in, you'll have peace of mind knowing that your hotel data is protected."
+        }
+    },
+    "app-hero-description": "Manage your Hotel, be updated, save money and streamline your processes.",
+    "app-call-to-action": "Start Now!",
+    "app-prices": {
+        "title": "Find a Plan",
+        "free-card": {
+            "title": "Free",
+            "description1": "Maximum 10 rooms",
+            "description2": "Maximum  5 clients per day",
+            "description3": "Maximum 20 products",
+            "description4": "Maximum 3 services"
+        },
+        "premium-card": {
+            "title": "Premium",
+            "description": "You will be able to use all functions unlimitedly"
+        }
+    },
+    "app-form": {
+        "title": "Contact us",
+        "name": "Name",
+        "number": "Number",
+        "email": "Email",
+        "send": "Send"
+    },
+
+    "app-abouttheproduct": {
+      "title-abouttheproduct": "About the Product."
+    },
+  
+    "app-abouttheteam": {
+      "title-abouttheteam": "About the Team."
+    },
+
+    "app-contact": {
+      "send": "Start free",
+      "title": "Manage your entire hotel more easily and efficiently."
+    }
+}

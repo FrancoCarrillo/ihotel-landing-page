@@ -1,0 +1,56 @@
+{
+    "app-title": "iHotel",
+    "app-login": "Iniciar sesión",
+    "app-register": "Registrarse",
+    "app-features": {
+        "title": "Potentes herramientas que te ayudan a trabajar, organizarte y estar conectado",
+        "connect": {
+            "title": "Conéctese siempre",
+            "description": "Solo necesitas un lugar con conexión a internet para mantenerte organizado y simplificar la gestión de tu hotel."
+        },
+        "fast": {
+            "title": "Servicio rápido",
+            "description": "Olvídate de comprar computadores súper caros, solo necesitas una conexión a internet estable y ser productivo en tu día a día."
+        },
+        "protect": {
+            "title": "Protege lo importante",
+            "description": "Manténgase seguro y productivo con las funciones de seguridad integradas, tendrá la tranquilidad de saber que los datos de su hotel están protegidos."
+        }
+    },
+    "app-call-to-action": "¡Empieza ahora!",
+    "app-hero-description": "Adminsitra tu hotel, mantente actualizado, ahorra dinero y supervisa tus procesos.",
+    "app-prices": {
+        "title": "Encuentra tu Plan",
+        "free-card": {
+            "title": "Gratis",
+            "description1": "Un máximo de 10 habitaciones",
+            "description2": "Un máximo de 5 clientes por día",
+            "description3": "Un máximo de 20 productos",
+            "description4": "Un máximo de 3 servicios"
+        },
+        "premium-card": {
+            "title": "Premium",
+            "description": "Podrás utilizar todas las funciones de manera ilimitada"
+        }
+    },
+    "app-form": {
+        "title": "Contáctanos",
+        "name": "Nombre",
+        "number": "Número",
+        "email": "Email",
+        "send": "Enviar"
+    },
+
+    "app-abouttheproduct": {
+        "title-abouttheproduct": "Acerca del Producto."
+      },
+    
+      "app-abouttheteam": {
+        "title-abouttheteam": "Acerca del Equipo."
+      },
+
+      "app-contact": {
+        "send": "Empezar gratis",
+        "title": "Administra todo tu hotel de manera más fácil y eficaz."
+      }
+}

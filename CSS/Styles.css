@@ -1,0 +1,634 @@
+body
+{
+  background: #EEEEEE;
+  font-family: 'Segoe UI';
+}
+.end select
+{
+  background: #006F53;
+  border-radius: 5px;
+  width: 117px;
+  height: 40px;
+
+  font-size: 16px;
+  color: #FFFFFF;
+
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 13px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #EEEEEE;
+}
+.start img
+{
+  width: 120px;
+}
+#forget-to
+{
+  margin-bottom: 200px;
+}
+#features
+{
+  margin-bottom: 200px;
+}
+#features h2
+  {
+    font-family: "Segoe UI";
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    margin-bottom: 150px;
+  }
+  #features h3
+  {
+    font-family: "Segoe UI";
+    font-size: 36px;
+    letter-spacing: 0.02em;
+  }
+
+  .features-card {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  .connect {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+  }
+  
+  .fast{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 250px;
+  }
+  .fast h3
+  {
+    margin-right: 105px;
+  }
+  .protect {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+  }
+  .f-jpg1
+  {
+    flex:  1;
+    display: flex;
+    justify-content: end;
+  }
+  .f-jpg2
+  {
+    flex:  1;
+    display: flex;
+    justify-content: start;
+  }
+  .fast-description{
+    width: 300px;
+  }
+
+  .protect-description{
+    width: 300px;
+  }
+
+  .connect-description{
+    width: 300px;
+  }
+
+  #connect-img {
+    width: 320px;
+    height: 317px;
+
+  }
+  #fast-img {
+    width: 357px;
+    height: 280px;
+  }
+  #protect-img {
+    width: 404px;
+    height: 281px;
+  }
+
+#pricing
+{
+  margin-bottom: 150px;
+}
+#pricing h2
+{
+  font-family: "Segoe UI";
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  margin-top: 120px;
+}
+.pricing-card
+{
+  display: flex;
+  flex-wrap: nowrap;
+  color: #fff;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.free-card, .premium-card
+{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+}
+.below-card, .upper-card
+{
+  display: flex;
+  width: 400px;
+}
+.upper-card
+{
+  background: #CA7900;  
+  justify-content: center;
+  padding: 20px;
+}
+.below-card
+{
+  background: #FF9900;
+  height: 250px;
+  font-size: 24px;
+  padding: 20px;
+}
+.below-card ul
+{
+  list-style: none;
+  margin-left: -30px;
+}
+.box-background:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 229, 207, 1);
+  display: block;
+  z-index: -1;
+  height: 25rem;
+}
+.contact-image {
+  z-index: -1;
+  background: url("../media/pictures/housesPicture.png");
+  object-fit: cover;
+  position: absolute;
+  display: block;
+}
+.contact-title {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 1);
+}
+.form-control-labels {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0.2em;
+  color: rgba(78, 78, 78, 1);
+}
+
+.form-control {
+  font-family: "Segoe UI";
+  position: relative;
+  font-size: 17px;
+  display: inline-block;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 400;
+  background-color: rgba(241, 241, 241, 1);
+}
+
+.form-control {
+  padding: 0.5em 2.5em;
+  border-radius: 0.8em;
+}
+
+.button-contact-send {
+  background-color: #009d76;
+  margin-top: 2rem;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 7px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.button-contact-send:hover {
+  background-color: #006f53;
+}
+
+#footer
+{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+#footer .img-footer
+{
+  width: 169px;
+}
+
+#footer .img-facebook
+{
+  width: 90px;
+}
+
+#footer .img-instagram
+{
+  width: 90px;
+}
+
+.a-img
+{
+  flex: 2;
+}
+.a-fb
+{
+  flex: 1;
+  margin-left: 400px;
+ 
+}
+.a-ig
+{
+  flex: 1;
+  margin-left: 50px;
+}
+#footer p
+{
+  flex: 2;
+  margin-left: 300px;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #909090;
+}
+
+/* SOLO MEDIA QUERIES PARA RESPONSIVE-------------------------------------------------- */
+
+@media (min-width: 2000px) and (max-width: 2500px) {
+  .box-background:before {
+    width: 55rem;
+    right: 200px;
+  }
+  .contact-image {
+    width: 43rem;
+    height: 28.625rem;
+    left: 500px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .box-background:before {
+    width: 40rem;
+    right: 160px;
+  }
+  .contact-image {
+    width: 43rem;
+    height: 28.625rem;
+    left: 400px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1700px) {
+  .box-background:before {
+    width: 35rem;
+    right: 150px;
+  }
+  .contact-image {
+    width: 38rem;
+    height: 25rem;
+    left: 300px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .box-background:before {
+    width: 30rem;
+    right: 100px;
+  }
+  .contact-image {
+    width: 38rem;
+    height: 25rem;
+    left: 200px;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 1000px) {
+  .box-background:before {
+    width: 25rem;
+    right: 70px;
+  }
+  .contact-image {
+    width: 30rem;
+    height: 22rem;
+    left: 100px;
+  }
+  #features
+  {
+    margin-bottom: 0px;
+  }
+#features h2
+  {
+    font-size: 32px;
+    margin-bottom: 100px;
+  }
+  #features h3
+  {
+    font-size: 30px;
+  }
+  .features-card {
+    margin-bottom: 50px;
+  }
+  .connect {
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .fast{
+    align-items: center;
+    margin-right: 0;
+  }
+  .fast h3
+  {
+    margin-right: 0;
+  }
+  .protect {
+    align-items: center;
+    margin-left: 0;
+  }
+  .f-jpg1
+  {
+    display: none;
+  }
+  .f-jpg2
+  {
+    display: none;
+  }
+  .fast-description{
+    text-align: center;
+  }
+
+  .protect-description{
+    text-align: center;
+  }
+
+  .connect-description{
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 920px) {
+  .box-background:before {
+    width: 22rem;
+    right: 50px;
+  }
+  .contact-image {
+    width: 25rem;
+    height: 18rem;
+    left: 50px;
+  }
+  .pricing-card
+  {
+    flex-wrap: wrap;
+  }
+  .free-card
+  {
+    margin-bottom: 30px;
+  }
+  #features
+  {
+    margin-bottom: 0px;
+  }
+#features h2
+  {
+    font-size: 32px;
+    margin-bottom: 100px;
+  }
+  #features h3
+  {
+    font-size: 30px;
+  }
+  .features-card {
+    margin-bottom: 50px;
+  }
+  .connect {
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .fast{
+    align-items: center;
+    margin-right: 0;
+  }
+  .fast h3
+  {
+    margin-right: 0;
+  }
+  .protect {
+    align-items: center;
+    margin-left: 0;
+  }
+  .f-jpg1
+  {
+    display: none;
+  }
+  .f-jpg2
+  {
+    display: none;
+  }
+  .fast-description{
+    text-align: center;
+  }
+
+  .protect-description{
+    text-align: center;
+  }
+
+  .connect-description{
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .formulario {
+    background-color: rgba(255, 229, 207, 1);
+  }
+
+  .pricing-card {
+    flex-wrap: wrap;
+  }
+
+  .free-card {
+    margin-bottom: 30px;
+  }
+
+  #features
+  {
+    margin-bottom: 0px;
+  }
+#features h2
+  {
+    font-size: 32px;
+    margin-bottom: 100px;
+  }
+  #features h3
+  {
+    font-size: 30px;
+  }
+  .features-card {
+    margin-bottom: 50px;
+  }
+  .connect {
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .fast{
+    align-items: center;
+    margin-right: 0;
+  }
+  .fast h3
+  {
+    margin-right: 0;
+  }
+  .protect {
+    align-items: center;
+    margin-left: 0;
+  }
+  .f-jpg1
+  {
+    display: none;
+  }
+  .f-jpg2
+  {
+    display: none;
+  }
+  .fast-description{
+    text-align: center;
+  }
+
+  .protect-description{
+    text-align: center;
+  }
+
+  .connect-description{
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  #footer
+{
+  align-items: center;
+  flex-direction: column;
+}
+#footer .img-footer
+{
+  display: none;
+}
+
+.a-fb
+{
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+.a-ig
+{
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+#footer p
+{
+  margin-left: 0;
+}
+}
+
+#abouttheproduct h2 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+#abouttheteam h2 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+#abouttheproduct div {
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+  width:560; 
+  height: 315;
+}
+
+#abouttheteam div {
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.contact-banner {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+
+.contact-title {
+  text-align: center;
+  max-width: 900px;
+  font-size: 3.5vw;
+  margin-bottom: 2rem;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  text-align: center;
+  filter: drop-shadow(0px 10px 4px rgba(7, 7, 7, 0.363));
+  color: black;
+}
+
+.btn-contact-send {
+  position: relative;
+  font-size: 17px;
+  display: inline-block;
+  transition: all 0.2s;
+  border: none;
+  font-family: "Segoe UI";
+  font-weight: 500;
+  color:white;
+  background-color: #009D76;
+  box-shadow: 0 9px 14px -6px #000000;
+}
+
+.btn-contact-send {
+  padding: 1em 2.5em;
+  border-radius: 6em;
+}
+
+.btn-contact-send:hover {
+  transform: translateY(+3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.font-family {
+  font-family: "Segoe UI";
+}
